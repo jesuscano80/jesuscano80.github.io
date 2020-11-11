@@ -1,0 +1,222 @@
+body {
+    background-color:#43A6CC;
+    font-family: 'Lato', sans-serif;
+    scroll-snap-type: y mandatory;
+    overflow-y: hidden;
+    height:100vh;    
+  }
+
+  span
+  {
+    font-size:1.5em;
+  }
+
+html {
+    scroll-behavior: smooth;
+
+  }
+
+section{
+  height:100vh;
+  
+  scroll-snap-align: start;
+}
+
+#dos, #tres{
+  background-color:white;
+}
+#presentacion
+{
+  
+ text-align: center;
+}
+
+
+  
+  .autotype {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    margin: 10vh auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* width: auto;   */
+    max-width: 100%;
+    
+
+  }
+
+  .margen{
+    height: 5vh;
+  }
+  
+  .text {  
+    min-width: 6px;
+    height: 1.2em;
+    letter-spacing: 2px;
+    border-right: solid 6px transparent;
+    animation: pulse .4s alternate infinite;
+  }
+
+  label{
+    text-align: right;
+    color:white;
+    font-size:3em;
+  }
+  
+  @keyframes pulse {
+    from {border-color: transparent;}
+    to {border-color: white;}
+  }
+
+  .centrado{
+      display:block;
+      margin:0 auto;
+     
+      
+
+  }
+  #micara{
+    width: 25vh;
+    height: 25vh;
+  }
+  #logo{
+    width: 40%;
+    
+  }
+  p{
+    font-size: 1.5em;
+  }
+ 
+
+  i{
+    font-size:4em;
+  }
+
+  a, button{
+    font-size:20px;
+    font-weight:bold;
+    color:white;
+  }
+  
+  @media only screen and (max-width: 450px) {
+     
+  .text {  
+    min-width: 1px;
+    height: 1em;
+    font-size:20px;
+    letter-spacing: 0.7px;
+    border-right: solid 4px transparent;
+    animation: pulse .4s alternate infinite;
+  }
+ a{
+    font-size:10px;
+    font-weight:bold;
+    color:white;
+  }
+  #logo{
+    width: 40vw;
+    height: 40vw;
+    
+  }
+  i{
+    font-size:3em;
+  }
+
+  p,span{
+    font-size: 1em;
+  }
+
+  .redimensionar
+{
+
+width: 100px !important; 
+height: 100px !important;
+object-fit: cover !important;
+}
+  
+  }
+
+  @media only screen and (max-width: 350px) {
+     
+    .text {  
+      min-width: 1px;
+      height: 0.8em;
+      font-size:15px;
+      letter-spacing: 0.5px;
+      border-right: solid 4px transparent;
+      animation: pulse .4s alternate infinite;
+    }
+   a{
+      font-size:8px;
+      font-weight:bold;
+      color:white;
+    }
+    #logo{
+      width: 40vw;
+      height: 40vw;
+      
+    }
+    p,span,label{
+      font-size: 0.6em!important;
+    }
+
+  i{
+    font-size:2em;
+  }
+    .redimensionar
+  {
+  
+  width: 75px !important; 
+  height: 75px !important;
+  object-fit: cover !important;
+  }
+    
+    }
+
+
+
+  #hola, li a {
+    color:white;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+ #hola, li a:hover, a:focus {
+    background-size: 100% 2px;
+}
+ 
+
+#home{
+  font-size:1em;
+}
+
+textarea {
+  resize: none;
+}
+
+.opa{
+  opacity:0.5;
+}
+
+
+#lupa
+{
+  width:80%;
+}
+
+.redimensionar
+{
+
+width: 200px; 
+height: 200px;
+object-fit: cover;
+}
+
+.ts{
+width: 23%;
+}
