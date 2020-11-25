@@ -119,7 +119,7 @@ section{
     height: 40vw;
   
   }
-  #formula{
+  #formula, .ajuste{
     display:none;
   }
   i{
