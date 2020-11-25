@@ -1,4 +1,7 @@
 $(document).ready(function() {
+
+  
+
     //first text
     const text1 = ['Hola, soy Jesús!'];
     const lettersText = text1[0];
@@ -53,6 +56,8 @@ $(document).ready(function() {
     } 
     
     start(); 
+
+    
   
   });
 // ACTIVA TOOLTIPS
@@ -77,3 +82,81 @@ $("input").focus(function(){
 $("i").hover(function(){
   $(this).toggleClass("opa");
 })
+
+window.sr = ScrollReveal();
+sr.reveal('#micara', {
+  duration: 5000,
+  origin: 'bottom',
+  distance: '-100px'
+});
+
+window.sr = ScrollReveal();
+sr.reveal('.fa-html5', {
+  duration: 3000,
+  origin: 'left',
+  distance: '100px'
+});
+
+window.sr = ScrollReveal();
+sr.reveal('.fa-css3-alt', {
+  delay:300,
+  duration: 3000,
+  origin: 'bottom',
+  distance: '-100px'
+});
+
+window.sr = ScrollReveal();
+sr.reveal('.fa-js', {
+  delay:600,
+  duration: 3000,
+  origin: "bottom",
+  distance: '-100px'
+});
+
+window.sr = ScrollReveal();
+sr.reveal('.fa-js', {
+  delay:900,
+  duration: 3000,
+  origin: "bottom",
+  distance: '-100px'
+});
+
+window.sr = ScrollReveal();
+sr.reveal('.fa-git-alt', {
+  delay:1200,
+  duration: 3000,
+  origin: "right",
+  distance: '100px'
+});
+
+window.sr = ScrollReveal();
+sr.reveal('.fa-angular', {
+  delay:1500,
+  duration: 3000,
+  origin: "right",
+  distance: '-100px'
+});
+
+window.sr = ScrollReveal();
+sr.reveal('.fa-bootstrap', {
+  delay:1800,
+  duration: 3000,
+  origin: "bottom",
+  distance: '100px'
+});
+
+window.sr = ScrollReveal();
+sr.reveal('.fa-node-js', {
+  delay:2100,
+  duration: 3000,
+  origin: "bottom",
+  distance: '100px'
+});
+
+window.sr = ScrollReveal();
+sr.reveal('.ts', {
+  delay:2100,
+  duration: 3000,
+  origin: "right",
+  distance: '100px'
+});

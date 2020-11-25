@@ -99,7 +99,7 @@ section{
     color:white;
   }
   
-  @media only screen and (max-width: 450px) {
+  @media only screen and (max-width: 450px)  {
      
   .text {  
     min-width: 1px;
