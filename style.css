@@ -8,7 +8,7 @@ body {
 
   span
   {
-    font-size:1.5em;
+    font-size:2em;
   }
 
 html {
@@ -117,7 +117,10 @@ section{
   #logo{
     width: 40vw;
     height: 40vw;
-    
+  
+  }
+  #formula{
+    display:none;
   }
   i{
     font-size:3em;
@@ -156,6 +159,9 @@ object-fit: cover !important;
       width: 40vw;
       height: 40vw;
       
+    }
+    #formula{
+      display:none;
     }
     p,span,label{
       font-size: 0.6em!important;
